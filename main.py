@@ -1,3 +1,4 @@
+from datetime import time
 import git
 import os
 
@@ -40,3 +41,4 @@ while True:
     repo_path = r"C:\Users\ejsch\source\repos\MLDM_LABS\MLDM-Final\weather_data"  # Local path to your Git repository
     commit_message = "Updated the weather data"
     push_to_github(repo_path, commit_message)
+    time.sleep(10)
